@@ -1,0 +1,25 @@
+.search{
+    /* Arama yapın... */
+
+
+width: 82px;
+height: 15px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 15px;
+/* identical to box height */
+
+
+color: #D2D2D2;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+
+}
