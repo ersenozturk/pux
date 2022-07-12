@@ -4,10 +4,14 @@
 }
 
 .logoipsum {
-  width: 100%;
+  margin-left: 2rem;
+  padding: 12px;
+  height: 10vh;
+
+  /* width: 100%;
   text-align: center;
   vertical-align: middle;
-  line-height:60px;
+  line-height:60px; */
 }
 
 .menuItem {
@@ -16,22 +20,16 @@
   padding: 12px;
   gap: 0.5rem;
   margin-left: 2.25rem;
-
-  height: 2.25rem;
+  height: 8vh;
   border-radius: 10px;
 }
 
 .icon {
   color: #87888c;
-  /* height: 14.666666030883789px;
-  width: 14.666666030883789px; */
-
-  /* margin-bottom: 5px; */
 }
 
 .iconText {
   height: 1rem;
-  font-family: "Inter";
   font-style: normal;
   font-weight: 600;
   font-size: 13px;

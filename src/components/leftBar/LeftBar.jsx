@@ -5,12 +5,13 @@ import { RiCompassDiscoverLine, RiFolder3Fill } from "react-icons/ri";
 import { BiTrendingUp } from "react-icons/bi";
 import { MdColorLens } from "react-icons/md";
 import { IoFolderSharp, IoSettings, IoExitOutline } from "react-icons/io5";
+import logoipsum from '../../assets/logoipsum-logo-17.svg'
 
 const LeftBar = () => {
   return (
     <div className={styles.leftBar}>
       <div className={styles.logoipsum}>
-          <span>logo</span> <span>ipsum</span>
+          <img src={logoipsum} alt="logo" />
       </div>
       <div className={styles.menuItem}>
         <div className={`${styles.icon} ${styles.add}`}> <BsPlusLg /> </div>
