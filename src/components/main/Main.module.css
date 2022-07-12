@@ -1,3 +1,19 @@
-.main{
+.wrapper{
     width: 82.5%;
+    display: flex;
+    flex-direction: column;
+    /* background-color: #fff; */
+}
+
+.mainLeft{
+    width: 40%;
+    background-color: yellow;
+}
+
+
+.mainRight{
+    width: 50%;
+    background-color: red;
+
+
 }

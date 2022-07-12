@@ -9,10 +9,11 @@ const MainTopDown = () => {
         <div className={styles.metinIcon}>
           <BsFillFileTextFill />
         </div>
-        <div className={styles.metinText}>AI Metin Yazarı </div>
+        <div className={styles.metinText}>AI Metin Yazarı</div>
       </div>
+
       <div className={styles.gecmis}>
-      <div className={styles.gecmisIcon}>
+        <div className={styles.gecmisIcon}>
           <RiHistoryLine />
         </div>
         <div className={styles.gecmisText}>Geçmiş</div>
