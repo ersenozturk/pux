@@ -39,10 +39,9 @@ select {
 }
 
 .optionClass {
-  width: 156px;
-  height: 14px;
 
-  font-family: "Roboto", sans-serif;
+
+  /* font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
@@ -50,5 +49,6 @@ select {
   color: #a0a0a0;
   flex: none;
   order: 0;
-  flex-grow: 0;
-}
+  flex-grow: 0; */
+  border-radius: 15px;
+  background-color: red;}

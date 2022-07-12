@@ -20,14 +20,14 @@ const Main = () => {
             <Dropdowns title="Dil Seçimi" />
           </div>
           <div className={styles.doubleDrop}>
-            <Dropdowns title="Konu Başlığı" />
-            <Dropdowns title="Dil Seçimi" />
+            <Dropdowns title="Alt Başlık" />
+            <Dropdowns title="Dil Tonu" />
           </div>
           <div className={styles.inputArea}>
             <Inputs title="Örnek Metin" rows="5" cols="60" />
           </div>
           <div className={styles.inputArea}>
-            <Inputs title="anahtar Kelime" rows="2" cols="60" />
+            <Inputs title="Anahtar Kelime" rows="2" cols="60" />
           </div>
           <div className={styles.doubleDrop}>
             <Dropdowns title="Yaratıcılık Seçimi" />
@@ -41,13 +41,13 @@ const Main = () => {
         <div className={styles.mainRight}>
           <h5>AI Metin Yazarı Dosyalarım</h5>
           <p>Lorem İpsum</p>
-          <div className={styles.listDosya}>
+          <div className={`${styles.lists} ${styles.active}`}>
             <Lists listName='Dosya Adı'/>
           </div>
-          <div className={styles.listDosya}>
+          <div className={styles.lists}>
             <Lists listName='Dosya Adı' />
           </div>
-          <div className={styles.listDosya}>
+          <div className={styles.lists}>
             <Lists listName='Dosya Adı' />
           </div>
         </div>
