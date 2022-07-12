@@ -1,0 +1,22 @@
+.lists {
+  display: flex;
+  width: 100%;
+}
+
+/* .lists:hover {
+  background-color: #21222d;
+} */
+
+.icon {
+  padding: 10px 20px 10px 0;
+}
+.fileName {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  padding: 8px 20px 10px 0;
+}

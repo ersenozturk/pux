@@ -26,7 +26,37 @@
 
 .icon {
   color: #87888c;
+  height: 22px;
+  width: 22px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
+
+
+/* mouse events */
+.icon:hover{
+  background-color: #484455;
+  border-radius: 4px;
+}
+
+.mood {
+  cursor: pointer;
+  height: 8px;
+  width: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* click events */
+
+
+
+
+
 
 .iconText {
   height: 1rem;
@@ -38,4 +68,28 @@
   flex: none;
   order: 1;
   flex-grow: 0;
+}
+
+/* no hover for this icons */
+.icon2 {
+  color: #87888c;
+  height: 22px;
+  width: 22px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.active{
+  background-color: #66D4CF;
+  margin-right: 10px;
+  padding: 10px 10px 10px;
+}
+
+.activeIcon{
+  color: #171821;
+}
+
+.activeText{
+  color: #171821;
 }

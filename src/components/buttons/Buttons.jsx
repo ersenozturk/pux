@@ -1,7 +1,7 @@
 import styles from './Buttons.module.css'
 
 
-const Buttons = ({content, color}) => {
+const Buttons = ({content}) => {
   return (
     <button className={styles.buttons}>{content}</button>
   )

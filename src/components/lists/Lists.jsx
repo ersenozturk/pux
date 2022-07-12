@@ -1,9 +1,15 @@
-import React from 'react'
+import styles from "./Lists.module.css";
+import { BsFillFileTextFill } from "react-icons/bs";
 
-const Lists = () => {
+const Lists = ({listName}) => {
   return (
-    <div>Lists</div>
-  )
-}
+    <div className={styles.lists}>
+      <div className={styles.icon}>
+        <BsFillFileTextFill />
+      </div>
+      <div className={styles.fileName}>{listName}</div>
+    </div>
+  );
+};
 
-export default Lists
+export default Lists;
