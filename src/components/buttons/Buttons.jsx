@@ -1,8 +1,9 @@
-import React from 'react'
+import styles from './Buttons.module.css'
 
-const Buttons = () => {
+
+const Buttons = ({content, color}) => {
   return (
-    <div>Buttons</div>
+    <button className={styles.buttons}>{content}</button>
   )
 }
 
