@@ -1,9 +1,13 @@
-import React from 'react'
+import styles from "./Inputs.module.css";
 
-const Inputs = () => {
+
+const Inputs = ({title, rows, cols}) => {
   return (
-    <div>Inputs</div>
-  )
-}
+    <div className={styles.inputs}>
+      <label htmlFor="drop-down">{title}</label>
+      <textarea rows={rows} cols={cols} placeholder="Konu Başlığı"></textarea>
+    </div>
+  );
+};
 
-export default Inputs
+export default Inputs;
