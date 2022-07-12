@@ -1,19 +1,40 @@
-.wrapper{
-    width: 82.5%;
+.wrapper {
+  width: 82.5%;
+  display: flex;
+  flex-direction: column;
+  /* background-color: #fff; */
+}
+
+.main {
+  display: flex;
+  /* padding: 0 15px; */
+  margin: 0 15px;
+  border: 0.5px solid #2c2d33;
+  border-radius: 0px 0px 10px 10px;
+}
+
+/* nainleft */
+.mainLeft {
+  width: 45%;
+}
+
+.doubleDrop{
     display: flex;
-    flex-direction: column;
-    /* background-color: #fff; */
+    justify-content: space-between;
+    margin: 0 15px;
 }
 
-.mainLeft{
-    width: 40%;
-    background-color: yellow;
+.inputArea{
+    margin: 0 15px;
 }
 
+.sonucBul{
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+}
 
-.mainRight{
-    width: 50%;
-    background-color: red;
-
-
+.mainRight {
+  width: 55%;
+  background-color: red;
 }
