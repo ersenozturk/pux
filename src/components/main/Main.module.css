@@ -75,3 +75,28 @@
 .active{
   cursor: pointer;
 }
+
+/*! page 2 styles */
+.backAndDosya{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: 0.5rem;
+}
+
+.backAndDosya:hover{
+  background-color:  #21222d;
+}
+
+.backAndDosya h5{
+font-style: normal;
+font-weight: 600;
+font-size: 13px;
+line-height: 16px;
+color: #FFFFFF;
+}
+
+.backIcon{
+  margin-top: 5px;
+}
+
