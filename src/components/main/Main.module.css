@@ -30,6 +30,10 @@
   display: flex;
   justify-content: center;
   margin: 10px 0;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 15px;
 }
 
 .mainRight {
@@ -57,7 +61,6 @@
   color: #a0a0a0;
   padding: 0px 16px 8px;
   border-bottom: 0.5px solid rgba(255, 255, 255, 0.18);
-
 }
 
 .lists {
@@ -72,31 +75,30 @@
   background-color: #21222d;
 }
 
-.active{
+.active {
   cursor: pointer;
 }
 
 /*! page 2 styles */
-.backAndDosya{
+.backAndDosya {
   display: flex;
   justify-content: flex-start;
   align-items: center;
   margin-left: 0.5rem;
 }
 
-.backAndDosya:hover{
-  background-color:  #21222d;
+.backAndDosya:hover {
+  background-color: #21222d;
 }
 
-.backAndDosya h5{
-font-style: normal;
-font-weight: 600;
-font-size: 13px;
-line-height: 16px;
-color: #FFFFFF;
+.backAndDosya h5 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  color: #ffffff;
 }
 
-.backIcon{
-  margin-top: 5px;
+.backIcon {
+  margin-top: -4px;
 }
-

@@ -8,43 +8,56 @@
 
   display: flex;
   padding: 15px;
-  margin: 15px 15px 0 15px; 
+  margin: 15px 15px 0 15px;
 }
 
 /* metin div*/
 .metin {
   display: flex;
+  justify-content: center;
+  align-items: center;
   color: #66d4cf;
-  padding-right:50px;  
+  padding-right: 50px;
+
   /* border-bottom: 2px solid #66d4cf; */
-
-
 }
 
 .metinText {
-  font-style: normal;
-  font-weight: 600;
-  font-size: 13px;
-  line-height: 16px;
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 13px;
+line-height: 16px;
+display: flex;
+align-items: center;
+
+/* Mint */
+
+color: #66D4CF;
+
 }
 
-.metinIcon{
-  padding-right:12px;
-
+.metinIcon {
+  padding-right: 12px;
 }
 
 /* gecmis div */
 .gecmis {
   display: flex;
   align-items: center;
-  justify-content: baseline;
+  justify-content: center;
 }
 
-.gecmisIcon{
-  padding-right:12px;
-
+.gecmisIcon {
+  padding-right: 12px;
+  margin-top: -3px;
 }
 
-.gecmisText{
-  margin-top: -4px;
+.gecmisText {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
 }

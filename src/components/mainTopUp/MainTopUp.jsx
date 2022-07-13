@@ -10,7 +10,7 @@ const MainTopUp = () => {
       <div className={styles.mainTopUpRight}>
         <div className={styles.search}>
           <div className={styles.icon}>
-            <BsSearch />{" "}
+            <BsSearch />
           </div>
           <input
             type="search"
