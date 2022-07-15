@@ -16,7 +16,7 @@ const DropDownK = ({ title }) => {
           Konu Başlığı
         </Dropdown.Toggle>
 
-        <Dropdown.Menu variant="dark">
+        <Dropdown.Menu variant="dark" className={styles.dropMenu}>
           {dilSecimi.map((each, index) => (
             <DropdownItem key={index}>
               <div className={styles.iconDesc}>

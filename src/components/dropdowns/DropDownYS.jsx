@@ -16,9 +16,9 @@ const DropDownK = ({ title }) => {
           Konu Başlığı
         </Dropdown.Toggle>
 
-        <Dropdown.Menu variant="dark">
+        <Dropdown.Menu variant="dark" className={styles.dropMenu}>
           {yaraticilikSecimi.map((each, index) => (
-            <DropdownItem key={index}>{each}</DropdownItem>
+            <DropdownItem key={index}><span className={styles.spanDesc}>{each}</span></DropdownItem>
           ))}
         </Dropdown.Menu>
       </Dropdown>

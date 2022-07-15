@@ -32,6 +32,16 @@ label {
   border: none;
 }
 
+.dropMenu {
+  width: 210px;
+  border-radius: 10px;
+  background-color: linear-gradient(
+      0deg,
+      rgba(33, 34, 45, 0.4),
+      rgba(33, 34, 45, 0.4)
+    ),
+    linear-gradient(0deg, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2));
+}
 .spanDesc {
   font-style: normal;
   font-weight: 400;
@@ -39,4 +49,5 @@ label {
   line-height: 16px;
   align-items: center;
   color: #ffffff;
+  margin-left: 1rem;
 }

@@ -14,14 +14,13 @@ const DropDownK = ({ title }) => {
           Konu Başlığı
         </Dropdown.Toggle>
 
-        <Dropdown.Menu  variant="dark">
-
-
-        </Dropdown.Menu>
+        <Dropdown.Menu
+          variant="dark"
+          className={styles.dropMenu}
+        ></Dropdown.Menu>
       </Dropdown>
     </div>
   );
 };
 
 export default DropDownK;
-
