@@ -2,7 +2,12 @@ import React, { useState } from "react";
 import styles from "./Main.module.css";
 import MainTopUp from "../mainTopUp/MainTopUp";
 import MainTopDown from "../mainTopDown/MainTopDown";
-import Dropdowns from "../dropdowns/Dropdowns";
+import DropDownK from "../dropdowns/DropDownK";
+import DropDownDS from "../dropdowns/DropDownDS";
+import DropDownAB from "../dropdowns/DropDownAB";
+import DropDownVS from "../dropdowns/DropDownVS";
+import DropDownDT from "../dropdowns/DropDownDT";
+import DropDownYS from "../dropdowns/DropDownYS";
 import Inputs from "../inputs/Inputs";
 import Buttons from "../buttons/Buttons";
 import Lists from "../lists/Lists";
@@ -25,12 +30,12 @@ const Main = () => {
       <div className={styles.main}>
         <div className={styles.mainLeft}>
           <div className={styles.doubleDrop}>
-            <Dropdowns title="Konu Başlığı" />
-            <Dropdowns title="Dil Seçimi" />
+            <DropDownK title="Konu Başlığı" />
+            <DropDownDS title="Dil Seçimi" />
           </div>
           <div className={styles.doubleDrop}>
-            <Dropdowns title="Alt Başlık" />
-            <Dropdowns title="Dil Tonu" />
+            <DropDownAB title="Alt Başlık" />
+            <DropDownDT title="Dil Tonu" />
           </div>
           <div className={styles.inputArea}>
             <Inputs title="Örnek Metin" rows="5" />
@@ -39,8 +44,8 @@ const Main = () => {
             <Inputs title="Anahtar Kelime" rows="2"  />
           </div>
           <div className={styles.doubleDrop}>
-            <Dropdowns title="Yaratıcılık Seçimi" />
-            <Dropdowns title="Varyant Sayısı" />
+            <DropDownYS title="Yaratıcılık Seçimi" />
+            <DropDownVS title="Varyant Sayısı" />
           </div>
           <div className={styles.sonucBul}>
             <Buttons content="Sonuç Bul" />

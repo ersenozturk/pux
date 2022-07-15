@@ -32,15 +32,11 @@ label {
   border: none;
 }
 
-.option {
-  color: red;
-  font-family: "Roboto";
+.spanDesc {
   font-style: normal;
   font-weight: 400;
-  font-size: 12px;
-  line-height: 14px;
-  color: #a0a0a0;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
+  font-size: 13px;
+  line-height: 16px;
+  align-items: center;
+  color: #ffffff;
 }
