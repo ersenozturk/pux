@@ -1,0 +1,115 @@
+.leftBar {
+  width: 17.5%;
+  border-right: 1px solid #2c2d33;
+}
+
+.logoipsum {
+  margin-left: 2rem;
+  padding: 12px;
+  height: 10vh;
+}
+
+.menuItem {
+  display: flex;
+  align-items: center;
+  padding: 12px;
+  gap: 0.5rem;
+  margin-left: 2.25rem;
+  height: 8vh;
+  border-radius: 10px;
+}
+
+.text {
+  height: 1rem;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  color: #87888c;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.icon {
+  color: #87888c;
+  height: 22px;
+  width: 22px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  margin-top: -1px;
+}
+
+.icon:hover{
+  background-color: #484455;
+  border-radius: 4px;
+}
+
+.icon:hover > .mood2{
+  height: 8px;
+  width: 8px;
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+
+/*? click events */
+.clickedMood{
+  color: #fff;
+  height: 8px;
+  width: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.clickedIcon{
+  background-color:#66D4CF;
+  border-radius: 4px;
+  height: 22px;
+  width: 22px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  margin-top: -1px;
+}
+
+
+
+
+
+
+
+
+/*! no hover for this icons */
+.icon2 {
+  color: #87888c;
+  height: 22px;
+  width: 22px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*! active menuItem  */
+.active{
+  background-color: #66D4CF;
+  margin-right: 10px;
+  padding: 10px 10px 10px;
+}
+
+.activeIcon{
+  color: #171821;
+}
+
+.activeText{
+  color: #171821;
+}
+
