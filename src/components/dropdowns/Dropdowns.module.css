@@ -15,33 +15,26 @@ label {
   margin: 10px 0;
 }
 
-select {
-  display: flex;
-  padding: 10px 8px;
-
-  width: 225px;
-  height: 40px;
-
-  background: rgba(43, 43, 54, 0.4);
-  border: 0.5px solid rgba(255, 255, 255, 0.2);
-  backdrop-filter: blur(50px);
+.dropToggle {
+  background-color: #2b2b36;
   border-radius: 10px;
-  flex: none;
-  order: 1;
-  flex-grow: 0;
+  display: flex;
+  align-items: center;
+  padding: 10px 8px;
+  gap: 120px;
+  height: 36px;
   color: #a0a0a0;
-
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
   line-height: 14px;
+  border: none;
 }
 
-.optionClass {
-
-
-  /* font-family: "Roboto", sans-serif;
+.option {
+  color: red;
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
@@ -49,6 +42,5 @@ select {
   color: #a0a0a0;
   flex: none;
   order: 0;
-  flex-grow: 0; */
-  border-radius: 15px;
-  background-color: red;}
+  flex-grow: 0;
+}
