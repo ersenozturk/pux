@@ -38,7 +38,6 @@
   display: flex;
   line-height: 60px;
   height: 30px;
-  /* justify-content: center; */
   align-items: center;
   text-align: left;
 }
@@ -115,13 +114,5 @@
   line-height: 15px;
   color: #ffffff;
   flex-grow: 0;
-  margin-top: 13px;
-}
-
-.downArrow {
-  /* height: 8px;
-  width: 4px; */
-  height: 20px;
-  width: 10px;
-  margin-right: 0.7rem;
+  margin-top: 15px;
 }

@@ -1,5 +1,6 @@
 import styles from "./MainTopUp.module.css";
 import { BsSearch, BsBell, BsChevronDown } from "react-icons/bs";
+import Profile from "../profile/Profile";
 
 const MainTopUp = () => {
   return (
@@ -27,12 +28,7 @@ const MainTopUp = () => {
         </div>
 
         <div className={styles.guest}>
-          <img
-            src="https://www.iconninja.com/files/553/986/399/face-avatar-icon.png"
-            alt=""
-          />
-          <p>Örnek İnsan</p>
-          <BsChevronDown className={styles.downArrow} />
+          <Profile />
         </div>
       </div>
     </div>

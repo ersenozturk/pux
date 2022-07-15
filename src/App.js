@@ -1,11 +1,11 @@
 import './app.css'
-import LeftBar from './components/leftBar/LeftBar';
+import SideBar from './components/sideBar/SideBar';
 import Main from './components/main/Main';
 
 function App() {
   return (
     <div className="App">
-      <LeftBar />
+      <SideBar />
       <Main />
 
     </div>
