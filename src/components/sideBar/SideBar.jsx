@@ -16,8 +16,8 @@ const LeftBar = () => {
   const [bgColorCyan, setBgColorCyan] = useState(false);
 
   const handleClick = (e) => {
+    // setBgColorCyan(...bgColorCyan, !bgColorCyan);
     setBgColorCyan(!bgColorCyan);
-    // e.target.style.backgroundColor = 'cyan'
   };
 
   return (
@@ -28,7 +28,10 @@ const LeftBar = () => {
 
       <div className={styles.menuItem}>
         {bgColorCyan ? (
-          <div className={styles.clickedIcon}onClick={() =>setBgColorCyan(!bgColorCyan)}>
+          <div
+            className={styles.clickedIcon}
+            onClick={() => setBgColorCyan(!bgColorCyan)}
+          >
             <div className={styles.clickedMood}>
               <BsPlusLg />
             </div>
@@ -52,13 +55,14 @@ const LeftBar = () => {
               </div>
             </div>
           ) : (
-            <div className={styles.mood2}>
-              <RiCompassDiscoverLine />
+            <div className={styles.icon} onClick={handleClick}>
+              <div className={styles.mood2}>
+                <RiCompassDiscoverLine />
+              </div>
             </div>
           )}
         </div>
         <div className={styles.text}>Keşfet </div>
-
       </div>
 
       <div className={`${styles.menuItem} ${styles.active}`}>
@@ -124,7 +128,7 @@ const LeftBar = () => {
         </div>
         <div className={styles.text}>Ayarlar</div>
       </div>
-      
+
       <div className={styles.menuItem}>
         <div className={styles.icon2}>
           <IoExitOutline />
