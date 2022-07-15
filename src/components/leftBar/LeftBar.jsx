@@ -13,20 +13,11 @@ import { IoFolderSharp, IoSettings, IoExitOutline } from "react-icons/io5";
 import logoipsum from "../../assets/logoipsum-logo-17.svg";
 
 const LeftBar = () => {
-  const [hovering, setHovering] = useState(false);
+
   const [bgColorCyan, setBgColorCyan] = useState(false);
 
-  const handleMouseEnter = (e) => {
-    setHovering(true);
-  };
-
-  const handleMouseLeave = (e) => {
-    setHovering(false);
-  };
-
-  const handleClick = () => {
+   const handleClick = () => {
     setBgColorCyan(!bgColorCyan);
-    console.log(bgColorCyan);
   };
 
   return (
@@ -34,28 +25,22 @@ const LeftBar = () => {
       <div className={styles.logoipsum}>
         <img src={logoipsum} alt="logo" />
       </div>
-      
+
       <div className={styles.menuItem}>
-        <div
-          className={styles.icon}
-          onMouseEnter={handleMouseEnter}
-          onMouseLeave={handleMouseLeave}
-          onClick={handleClick}
-        >
-          <div className={hovering && `${styles.mood}`}>
-            <BsPlusLg />
+        <div className={styles.icon}>
+          <div className={styles.mood2}>
+              <BsPlusLg />
           </div>
         </div>
-
         <div className={styles.iconText}>Yeni Proje </div>
       </div>
+
+
       <div className={styles.menuItem}>
         <div
           className={styles.icon}
-          onMouseEnter={handleMouseEnter}
-          onMouseLeave={handleMouseLeave}
         >
-          <div className={hovering && `${styles.mood}`}>
+          <div className={styles.mood2}>
             <RiCompassDiscoverLine />
           </div>
         </div>
@@ -65,7 +50,9 @@ const LeftBar = () => {
         <div className={`${styles.icon2} ${styles.activeIcon}`}>
           <BsFillFileTextFill />
         </div>
-        <div className={`${styles.iconText} ${styles.activeText}`}>AI Metin Yazarı </div>
+        <div className={`${styles.iconText} ${styles.activeText}`}>
+          AI Metin Yazarı{" "}
+        </div>
       </div>
       <div className={styles.menuItem}>
         <div className={styles.icon2}>
@@ -76,10 +63,9 @@ const LeftBar = () => {
       <div className={styles.menuItem}>
         <div
           className={styles.icon}
-          onMouseEnter={handleMouseEnter}
-          onMouseLeave={handleMouseLeave}
+
         >
-          <div className={hovering && `${styles.mood}`}>
+          <div className={styles.mood2}>
             <BiTrendingUp />
           </div>
         </div>
@@ -88,10 +74,8 @@ const LeftBar = () => {
       <div className={styles.menuItem}>
         <div
           className={styles.icon}
-          onMouseEnter={handleMouseEnter}
-          onMouseLeave={handleMouseLeave}
         >
-          <div className={hovering && `${styles.mood}`}>
+          <div className={styles.mood2}>
             <MdColorLens />
           </div>
         </div>
@@ -106,10 +90,8 @@ const LeftBar = () => {
       <div className={styles.menuItem}>
         <div
           className={styles.icon}
-          onMouseEnter={handleMouseEnter}
-          onMouseLeave={handleMouseLeave}
         >
-          <div className={hovering && `${styles.mood}`}>
+          <div className={styles.mood2}>
             <BsFillHeartFill />
           </div>
         </div>

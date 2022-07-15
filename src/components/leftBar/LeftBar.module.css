@@ -7,11 +7,6 @@
   margin-left: 2rem;
   padding: 12px;
   height: 10vh;
-
-  /* width: 100%;
-  text-align: center;
-  vertical-align: middle;
-  line-height:60px; */
 }
 
 .menuItem {
@@ -28,36 +23,30 @@
   color: #87888c;
   height: 22px;
   width: 22px;
-
   display: flex;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
+  margin-top: -3px;
 }
 
-
-
-/* mouse events */
 .icon:hover{
   background-color: #484455;
   border-radius: 4px;
 }
 
-.mood {
-  cursor: pointer;
+.icon:hover > .mood2{
   height: 8px;
   width: 8px;
-  display: flex;
+  display: flex; 
   justify-content: center;
   align-items: center;
 }
 
-/* click events */
 
 
 
-
-
-
+/*? click events */
 .iconText {
   height: 1rem;
   font-style: normal;
@@ -70,7 +59,12 @@
   flex-grow: 0;
 }
 
-/* no hover for this icons */
+
+
+
+
+
+/*! no hover for this icons */
 .icon2 {
   color: #87888c;
   height: 22px;
@@ -80,6 +74,7 @@
   align-items: center;
 }
 
+/*! active menuItem  */
 .active{
   background-color: #66D4CF;
   margin-right: 10px;
@@ -93,3 +88,4 @@
 .activeText{
   color: #171821;
 }
+
