@@ -7,8 +7,8 @@ const Shopping = (props,color) => (
     stroke="currentColor"
     strokeWidth={2}
     color={color}
-    width= '2rem'
-    height= '2rem'
+    width= '1.5rem'
+    height= '1.5rem'
     {...props}
   >
     <path
