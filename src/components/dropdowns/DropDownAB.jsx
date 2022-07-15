@@ -1,6 +1,5 @@
 import styles from "./Dropdowns.module.css";
 import Dropdown from "react-bootstrap/Dropdown";
-import DropdownItem from "react-bootstrap/DropdownItem";
 
 const DropDownK = ({ title }) => {
   return (
