@@ -1,5 +1,5 @@
 import styles from "./MainTopUp.module.css";
-import { BsSearch, BsBell, BsChevronDown } from "react-icons/bs";
+import { BsSearch, BsBell } from "react-icons/bs";
 import Profile from "../profile/Profile";
 
 const MainTopUp = () => {
