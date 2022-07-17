@@ -5,7 +5,7 @@ const config = {
   buttons: ["bold", "italic", "link", "unlink", "underline", "source"],
 };
 
-const Editor = ({ initialValue, getValue }) => {
+const Editor = ({ initialValue}) => {
   const editor = useRef(null)
   return (
     <JoditEditor
@@ -13,7 +13,7 @@ const Editor = ({ initialValue, getValue }) => {
     value={initialValue}
     config={config}
     tabIndex={1}
-    onChange={(newContent) => getValue(newContent)}
+
   />
   )
 }

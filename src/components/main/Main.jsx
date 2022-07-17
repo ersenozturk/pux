@@ -17,11 +17,6 @@ import { BiArrowBack } from "react-icons/bi";
 const Main = () => {
   const [pageOne, setPageOne] = useState(true);
 
-  const [value, setValue] = useState("");
-  const getValue = (value) => {
-    setValue(value);
-  };
-
   return (
     <div className={styles.wrapper}>
       <MainTopUp />
@@ -82,7 +77,7 @@ const Main = () => {
                 <h5>Dosya Adı</h5>
               </div>
               <div className={styles.parentEditorDiv}>
-                <Editor initialValue="" getValue={getValue} />
+                <Editor initialValue="" />
               </div>
             </div>
           )}
