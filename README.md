@@ -53,6 +53,6 @@ $ git clone https://github.com/ersenozturk/pux.git
 
 ## Contact
 
-- Website [your-website.com](https://ersenozturk-portfolio-website.netlify.app/)
-- GitHub [@your-username](https://github.com/ersenozturk)
-- Linkedin [@your-linkedin](https://www.linkedin.com/in/ozturkersen)
+- [Website](https://ersenozturk-portfolio-website.netlify.app/)
+- [GitHub](https://github.com/ersenozturk)
+- [Linkedin](https://www.linkedin.com/in/ozturkersen)
