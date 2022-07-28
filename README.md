@@ -30,8 +30,8 @@
 
 - HTML
 - CSS
-- Bootstrap
-- React.js
+- BOOTSTRAP 5
+- REACT.JS
 
 ## How To Use
 
